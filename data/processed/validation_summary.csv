@@ -1,0 +1,7 @@
+"metric","value"
+"Correlation with raw IPI",0.81725198001658
+"Correlation with IPI trend",0.894390237878021
+"R-squared: regression on raw IPI",0.66790079884102
+"R-squared: regression on IPI trend",0.799933897611503
+"Adj. R-squared: regression on raw IPI",0.666356151393769
+"Adj. R-squared: regression on IPI trend",0.799003357600394

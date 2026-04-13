@@ -1,0 +1,20 @@
+
+Call:
+lm(formula = IPI_growth ~ Banking_Indicator, data = df_diff)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-8.4703 -2.8078  0.4091  2.8958  7.9005 
+
+Coefficients:
+                  Estimate Std. Error
+(Intercept)        0.09079    0.25919
+Banking_Indicator  0.06960    0.26377
+                  t value Pr(>|t|)
+(Intercept)         0.350    0.726
+Banking_Indicator   0.264    0.792
+
+Residual standard error: 3.809 on 214 degrees of freedom
+Multiple R-squared:  0.0003253,	Adjusted R-squared:  -0.004346 
+F-statistic: 0.06963 on 1 and 214 DF,  p-value: 0.7921
+

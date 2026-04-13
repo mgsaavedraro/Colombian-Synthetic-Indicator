@@ -1,0 +1,26 @@
+Regression: Raw IPI on Banking Indicator
+
+
+Call:
+lm(formula = IPI ~ Banking_Indicator, data = df_plot)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.65578 -0.44735  0.02664  0.42643  1.38029 
+
+Coefficients:
+                    Estimate Std. Error
+(Intercept)       -6.535e-16  3.921e-02
+Banking_Indicator  8.173e-01  3.930e-02
+                  t value Pr(>|t|)    
+(Intercept)          0.00        1    
+Banking_Indicator   20.79   <2e-16 ***
+---
+Signif. codes:  
+  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1
+  ‘ ’ 1
+
+Residual standard error: 0.5776 on 215 degrees of freedom
+Multiple R-squared:  0.6679,	Adjusted R-squared:  0.6664 
+F-statistic: 432.4 on 1 and 215 DF,  p-value: < 2.2e-16
+

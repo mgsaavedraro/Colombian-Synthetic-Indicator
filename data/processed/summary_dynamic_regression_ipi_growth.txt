@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = IPI_growth ~ Banking_lag1 + Banking_lag2, data = df_diff_dyn)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-7.9527 -2.7973  0.5064  2.9535  7.7026 
+
+Coefficients:
+             Estimate Std. Error t value
+(Intercept)    0.1639     0.2725   0.601
+Banking_lag1  -6.3899     7.2801  -0.878
+Banking_lag2   6.4242     7.2489   0.886
+             Pr(>|t|)
+(Intercept)     0.548
+Banking_lag1    0.381
+Banking_lag2    0.377
+
+Residual standard error: 3.807 on 211 degrees of freedom
+Multiple R-squared:  0.00393,	Adjusted R-squared:  -0.005511 
+F-statistic: 0.4162 on 2 and 211 DF,  p-value: 0.6601
+

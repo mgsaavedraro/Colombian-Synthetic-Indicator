@@ -1,0 +1,17 @@
+"metric","value"
+"Correlation with raw IPI",0.81725198001658
+"Correlation with IPI trend",0.891258404878172
+"R-squared: regression on raw IPI",0.66790079884102
+"Adj. R-squared: regression on raw IPI",0.666356151393769
+"R-squared: regression on IPI trend",0.794341544265983
+"Adj. R-squared: regression on IPI trend",0.793384993309081
+"R-squared: regression on IPI difference",0.000338610068602159
+"Adj. R-squared: regression on IPI difference",-0.00433270483761938
+"R-squared: regression on IPI growth",0.000325289465512628
+"Adj. R-squared: regression on IPI growth",-0.00434608768651779
+"R-squared: dynamic regression on IPI difference",0.00533883462779066
+"Adj. R-squared: dynamic regression on IPI difference",-0.00408923329042943
+"R-squared: dynamic regression on IPI growth",0.00392998390215849
+"Adj. R-squared: dynamic regression on IPI growth",-0.00551143805137566
+"Best CCF lag",-12
+"Best CCF value",0.846297681076833
